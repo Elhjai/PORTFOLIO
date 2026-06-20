@@ -16,7 +16,7 @@ export const personal = {
 
   github: "https://github.com/Elhjai",
 
-  portfolio: "https://elhjai.github.io/PORT_FOLIO/",
+  portfolio: "https://portfolio-gray-pi-70.vercel.app/",
 };
 
 export const bio = [
