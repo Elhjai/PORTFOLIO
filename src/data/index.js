@@ -3,6 +3,8 @@ import abiokImg from "../images/abiok.png";
 import brisklogisticImg from "../images/brisklogistic.png";
 import currencyImg from "../images/currency.png";
 import megroyalImg from "../images/megroyal.png";
+import tespireImg from "../images/tespire.png";
+import labspaceImg from "../images/labspace.png";
 
 export const personal = {
   name: "Elijah Mukwone Paul",
@@ -13,9 +15,7 @@ export const personal = {
   location: "Lagos, Nigeria",
 
   linkedin: "https://linkedin.com/in/elijah-paul-a21442288/",
-
   github: "https://github.com/Elhjai",
-
   portfolio: "https://portfolio-gray-pi-70.vercel.app/",
 };
 
@@ -30,12 +30,10 @@ export const stats = [
     value: "10+",
     label: "Projects Built",
   },
-
   {
     value: "5+",
     label: "Modern Technologies",
   },
-
   {
     value: "100%",
     label: "Responsive Design",
@@ -45,96 +43,85 @@ export const stats = [
 export const projects = [
   {
     id: 1,
-
     name: "Allnovas",
-
     subtitle: "Talent & Opportunity Platform",
-
     description:
-      "A scalable platform connecting users with opportunities. Built reusable components and responsive interfaces while improving frontend architecture and user experience.",
-
+      "A talent and opportunity platform featuring responsive interfaces and reusable components, with a focus on maintainable frontend architecture and user experience.",
     image: allnovasImg,
-
     tags: ["React.js", "TypeScript", "Tailwind CSS", "Zustand", "React Query"],
-
     url: "https://allnova.vercel.app/",
-
     color: "#1c6000",
   },
 
   {
     id: 2,
-
-    name: "Abiok Publicity",
-
-    subtitle: "Corporate Billboard Website",
-
+    name: "Tespire",
+    subtitle: "Education Management Platform",
     description:
-      "A corporate website for an outdoor advertising and billboard company, showcasing services with a modern responsive experience.",
-
-    image: abiokImg,
-
-    tags: ["React.js", "Vue.js", "Tailwind CSS", "JavaScript"],
-
-    url: "https://www.abiokpublicity.com/",
-
+      "An African EdTech platform supporting school administration and digital learning workflows. Contributed to responsive interfaces, reusable components, and REST API integration.",
+    image: tespireImg,
+    tags: ["React.js", "TypeScript", "REST APIs", "Responsive Design"],
+    url: "https://www.tespire.co/",
     color: "#1c6000",
   },
 
   {
     id: 3,
-
-    name: "Currency Converter",
-
-    subtitle: "Real-time Exchange App",
-
+    name: "LAB SPACE",
+    subtitle: "Technology & Innovation Platform",
     description:
-      "An API-powered currency conversion application providing real-time exchange functionality with a clean responsive interface.",
-
-    image: currencyImg,
-
-    tags: ["Vue.js", "Node.js", "REST APIs"],
-
-    url: "https://currency-converter-beige-psi.vercel.app/",
-
+      "A technology and innovation platform focused on digital solutions and education initiatives. Contributed to user-focused interfaces and responsive frontend development.",
+    image: labspaceImg,
+    tags: ["Frontend Development", "Responsive Design", "API Integration"],
+    url: "https://joinlabspace.com/about-us/",
     color: "#1c6000",
   },
 
   {
     id: 4,
-
-    name: "Megroyal Interiors",
-
-    subtitle: "Interior Décor Showcase",
-
+    name: "Abiok Publicity",
+    subtitle: "Corporate Billboard Website",
     description:
-      "A product showcase platform for an interior décor company, improving product presentation and customer browsing experience.",
-
-    image: megroyalImg,
-
-    tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
-
-    url: "https://megroyal.vercel.app/",
-
+      "A corporate website for an outdoor advertising and billboard company, presenting its services through a modern and responsive web experience.",
+    image: abiokImg,
+    tags: ["React.js", "Vue.js", "Tailwind CSS", "JavaScript"],
+    url: "https://www.abiokpublicity.com/",
     color: "#1c6000",
   },
 
   {
     id: 5,
-
-    name: "Brisk Logistics",
-
-    subtitle: "Logistics & Transportation Platform",
-
+    name: "Currency Converter",
+    subtitle: "Real-time Exchange App",
     description:
-      "A modern logistics platform designed to improve transportation services, shipment management, and customer experience through a clean and responsive web interface.",
+      "An API-powered currency conversion application providing exchange functionality through a clean, responsive interface.",
+    image: currencyImg,
+    tags: ["Vue.js", "Node.js", "REST APIs"],
+    url: "https://currency-converter-beige-psi-70.vercel.app/",
+    color: "#1c6000",
+  },
 
+  {
+    id: 6,
+    name: "Megroyal Interiors",
+    subtitle: "Interior Décor Showcase",
+    description:
+      "A product showcase website for an interior décor business, presenting products through a responsive browsing experience.",
+    image: megroyalImg,
+    tags: ["Vue.js", "Tailwind CSS", "JavaScript"],
+    url: "https://megroyal.vercel.app/",
+    color: "#1c6000",
+  },
+
+  {
+    id: 7,
+    name: "Brisk Logistics",
+    subtitle: "Logistics & Transportation Platform",
+    description:
+      "A responsive logistics website designed to present transportation services and provide a clear, user-friendly digital experience.",
     image: brisklogisticImg,
-
     tags: ["Vue.js", "Tailwind CSS", "JavaScript", "Responsive Design"],
-
     url: "https://brisk-logistic.vercel.app/",
-
     color: "#1c6000",
   },
 ];
@@ -142,27 +129,19 @@ export const projects = [
 export const services = [
   {
     id: "01",
-
     title: "Frontend Web Development",
-
     description:
       "Building responsive, scalable, and high-performance web applications using modern frameworks and best practices.",
   },
-
   {
     id: "02",
-
     title: "UI Implementation & Design Systems",
-
     description:
       "Turning designs into clean, reusable, and accessible frontend components with pixel-perfect precision.",
   },
-
   {
     id: "03",
-
     title: "Web Application Development",
-
     description:
       "Developing interactive applications with API integration and modern frontend architecture.",
   },
@@ -171,27 +150,19 @@ export const services = [
 export const process = [
   {
     step: "01",
-
     title: "Understand & Plan",
-
     description:
       "I analyze project requirements, user needs, and business goals to create the right development approach.",
   },
-
   {
     step: "02",
-
     title: "Build & Develop",
-
     description:
       "I create responsive interfaces using modern frontend technologies with clean and reusable code.",
   },
-
   {
     step: "03",
-
     title: "Optimize & Deliver",
-
     description:
       "I test, improve performance, fix issues, and ensure the application is ready for users.",
   },
@@ -199,68 +170,45 @@ export const process = [
 
 export const clients = [
   "Allnovas",
-
+  "Tespire",
+  "LAB SPACE",
   "Abiok Publicity",
-
   "Megroyal",
-
   "Brisk Logistics",
 ];
 
 export const blogs = [
   {
     id: 1,
-
     title: "Building Scalable Frontend Applications with React and TypeScript",
-
     tag: "React · TypeScript",
-
     readTime: "5 min read",
   },
-
   {
     id: 2,
-
     title: "Why Component-Based Development Improves Web Projects",
-
     tag: "Architecture · Design Systems",
-
     readTime: "4 min read",
   },
-
   {
     id: 3,
-
     title: "My Journey Building Modern Web Applications as a Frontend Engineer",
-
     tag: "Career · Insights",
-
     readTime: "6 min read",
   },
 ];
 
 export const techStack = [
   "React.js",
-
   "Vue.js",
-
   "TypeScript",
-
   "Tailwind CSS",
-
   "Node.js",
-
   "REST APIs",
-
   "Zustand",
-
   "React Query",
-
   "JavaScript",
-
   "Git",
-
   "Vite",
-
   "React Native",
 ];
